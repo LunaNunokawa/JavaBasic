@@ -13,7 +13,7 @@ public class PTra03_02 {
 		int num = 65;
 		System.out.println(num);
 
-		if(num >= 80) {
+		if(num >= 60) {
 			System.out.println("合致しました");
 		}else{
 			System.out.println("不合格です");
