@@ -25,6 +25,16 @@ public class PTra03_08 {
 
 		int money = 1000;	// 所持金
 
+		if (num == 1) {
+			System.out.println("残りの所持金は" + (money - 150) + "円です。");
+		} else if (num == 2) {
+			System.out.println("残りの所持金は" + (money - 160) + "円です。");
+		} else if (num == 3) {
+			System.out.println("残りの所持金は" + (money - 200) + "円です。");
+		} else {
+			System.out.println("選択肢にありません");
+		}
+
 		//---------------------ここから本題-----------------------
 		/*
 		 * ★ 以下の仕様に沿ってプログラムを完成させてください
