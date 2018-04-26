@@ -8,6 +8,40 @@ package practice03;
 
 public class PTra03_09 {
 	public static void main(String[] args) {
+
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+		System.out.println("0-6を選択してください");
+		System.out.println("------------------------------------------");
+		System.out.println("0：日曜日");
+		System.out.println("1：月曜日");
+		System.out.println("2：火曜日");
+		System.out.println("3：水曜日");
+		System.out.println("4：木曜日");
+		System.out.println("5：金曜日");
+		System.out.println("6：土曜日");
+		System.out.println("------------------------------------------");
+
+		int num = scanner.nextInt();
+
+		if (num == 0) {
+			System.out.println("日曜日");
+		} else if (num == 1) {
+			System.out.println("月曜日");
+		} else if (num == 2) {
+			System.out.println("火曜日");
+		} else if (num == 3) {
+			System.out.println("水曜日");
+		} else if (num == 4) {
+			System.out.println("木曜日");
+		} else if (num == 5) {
+			System.out.println("金曜日");
+		} else if (num == 6) {
+			System.out.println("土曜日");
+		} else {
+			System.out.println("0～6の整数を入力してください");
+		}
+
 		/*
 		 * ★ 以下の仕様に沿ってプログラムを完成させてください
 		 *
