@@ -21,6 +21,20 @@ public class PTra03_07 {
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = Integer.parseInt(line);
 
+		if (num <= 1 ) {
+			System.out.println("1");
+		} else if (num <= 2) {
+			System.out.println("2");
+		} else if (num <= 3) {
+			System.out.println("3");
+		} else if (num <= 4) {
+			System.out.println("4");
+		} else if (num <= 5) {
+			System.out.println("5");
+		} else {
+			System.out.println("選択したのは,1～5以外です");
+		}
+
 		//---------------------ここから本題-----------------------
 		/*
 		 * ★ 以下の仕様に沿ってプログラムを完成させてください
